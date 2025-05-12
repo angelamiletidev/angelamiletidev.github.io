@@ -1,0 +1,33 @@
+/* Custom fonts */
+@font-face {
+	font-family: 'Rasputin';
+	src: url('../fonts/rasputin/Rasputin.otf') format('truetype');
+}
+
+body{
+	background-color: #607c60;
+	font-family: 'Rasputin', sans-serif;
+	color: #fff;
+}
+
+.flower{
+	width: 30px;
+	height: 30px;
+}
+
+.container-1{
+	background-image: url(../img/background_1.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	font-size: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+#text-1{
+	text-align: center;
+}
